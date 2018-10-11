@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.wrapper_wide {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.wrapper_skinny {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#background {
+  background-image: url(../images/wat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#background header {
+  padding: 3rem 0;
+}
+
+#background header #logo {
+  float: left;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#background header nav {
+  float: right;
+}
+
+#background header nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+#background header nav ul li {
+  display: inline;
+  margin-left: 2.5rem;
+}
+
+#background header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 7rem 0 2rem 0;
+}
+
+.button {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  display: inline-block;
+  min-width: 8.5rem;
+}
+
+.button {
+  margin: 1.5rem 2.5% 0 2.5%;
+}
+
+.button_highlight {
+  background: #d2674e;
+  transition: background .4s ease-in-out;
+}
+
+.button_highlight:hover {
+  background: #c74f33;
+}
+
+.button_white {
+  background: #ffffff;
+  color: #22292e;
+  transition: .4s ease-in-out;
+}
+
+.button_white:hover {
+  background: darken #ffffff, 7.5%;
+}

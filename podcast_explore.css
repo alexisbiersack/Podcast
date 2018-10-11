@@ -1,0 +1,164 @@
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+#main_header {
+  background: #ffffff;
+  padding: 2.5rem 0;
+}
+
+#logo {
+  float: left;
+  color: #22292e;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 2.5rem;
+}
+
+nav ul li a {
+  color: #22292e;
+  text-decoration: none;
+}
+
+#banner {
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 4rem;
+}
+
+#banner h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 8rem 0;
+}
+
+.banner_podcast {
+  background-image: url(../images/th.jpg);
+}
+
+#podcast {
+  padding-bottom: 3rem;
+}
+
+#podcast ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+#podcast ul li {
+  width: 23%;
+  float: left;
+  margin: 0 1% 2rem 1%;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
+  border-radius: .35rem;
+}
+
+#podcast ul li img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: .35rem .35rem 0 0;
+}
+
+#podcast ul li .podcast_overview {
+  padding: 1rem 7.5%;
+}
+
+#podcast ul li .podcast_overview h2 {
+  color: #22292e;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+#podcast ul li .podcast_overview .episode_count {
+  color: #9aaab5;
+  font-size: .9rem;
+  margin: .5rem 0 .25rem 0;
+}
+
+#podcast ul li:hover img {
+  opacity: .8;
+}
+
+#podcast ul li:hover .podcast_overview h2 {
+  color: #d2674e;
+}
+
+.pagination:before, .pagination:after {
+  content: " ";
+  display: table;
+}
+
+.pagination:after {
+  clear: both;
+}
+
+.pagination {
+  text-align: center;
+  margin: 1rem 0 5rem 0;
+}
+
+.pagination a, .pagination .previous_page, .pagination .current, .pagination .next_page {
+  padding: 0.75rem 1rem;
+  margin: 0 .25rem;
+  border-radius: .15rem;
+  line-height: 1.25;
+  text-decoration: none;
+  background: #EDEFF5;
+  font-weight: 700;
+  font-size: .7rem;
+  color: #22292e;
+}
+
+.pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
+  background: #d2674e;
+  color: #ffffff;
+}
+
+.pagination .current {
+  background: #d2674e;
+  color: #ffffff;
+}
+
+.pagination .disable {
+  color: #C0C0C0;
+}
+
+.pagination .disable:hover {
+  color: #C0C0C0;
+  background: #EDEFF5;
+}
